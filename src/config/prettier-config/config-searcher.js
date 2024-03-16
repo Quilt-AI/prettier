@@ -4,18 +4,18 @@ import { loadConfigFromPackageJson } from "./loaders.js";
 
 const CONFIG_FILE_NAMES = [
   "package.json",
-  ".prettierrc",
+  //".prettierrc",
   ".prettierrc.json",
-  ".prettierrc.yaml",
-  ".prettierrc.yml",
-  ".prettierrc.json5",
-  ".prettierrc.js",
-  ".prettierrc.mjs",
-  ".prettierrc.cjs",
-  "prettier.config.js",
-  "prettier.config.mjs",
-  "prettier.config.cjs",
-  ".prettierrc.toml",
+  //".prettierrc.yaml",
+  //".prettierrc.yml",
+  //".prettierrc.json5",
+  //".prettierrc.js",
+  //".prettierrc.mjs",
+  //".prettierrc.cjs",
+  //"prettier.config.js",
+  //"prettier.config.mjs",
+  //"prettier.config.cjs",
+  //".prettierrc.toml",
 ];
 
 async function filter({ name, path: file }) {
